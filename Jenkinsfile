@@ -46,12 +46,6 @@ pipeline {
                 
             }
         }
-        stage('Deploy to Production') {
-            steps {
-                echo 'Deploying to Production'
-                echo 'Tool: AWS EC2'
-                echo 'Task: Deploy the application to the production server.'
-            }
-        }
+        
     }
 }
